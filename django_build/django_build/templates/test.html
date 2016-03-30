@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% load django_partials %}
+{% block head %}
+{% endblock %}
+{% block body %}
+    <p>If you see <em>this</em>, the <code>Test.html</code> file is loading properly</p>
+    {% include_part "partials/partial_1.html" %}
+{% endblock %}
